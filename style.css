@@ -1,9 +1,11 @@
 :root {
-    --primary: #7824ca;
-    --secondary: #1e8dc3;
-    --accent: #ff961c;
-    --white: #e6f7ff;
-    --dark: #311052;
+    --primary: #3a97ad;
+    --primarydark: #00577b;
+    --dark: #00001b;
+    --secondary: #6e489d;
+    --accent: #c11b2d;
+    --white: #dcfaff;
+    --black: #00000f;
 }
 
 * {
@@ -227,11 +229,15 @@
 
 .subhead {
   position: relative;
-  top: -60px;
+  top: -30px;
   text-shadow: 2px 2px 4px var(--dark);
   
 }
+/* The hero image */
 
+.spacer {
+  height: 60px;
+}
 
 
 
